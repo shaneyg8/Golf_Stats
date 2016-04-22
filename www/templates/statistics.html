@@ -1,0 +1,51 @@
+<ion-view title="Statistics" id="page3" style="background-color:#08F939;">
+    <ion-content padding="true" class="has-header">
+        <h1 id="statistics-heading2" style="color:#FEFEFE;text-align:center;">Statistics</h1>
+        <h2 id="statistics-heading3" style="color:#111AEF;">Hole 1</h2>
+        <h3 id="statistics-heading4" style="color:#F4F4F4;">Par</h3>
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label" >Par (3,4 or 5)</span>
+                <input type="text" placeholder="" ng-model="details.Par">
+            </label>
+            
+            <h3 id="statistics-heading5" style="color:#F4F4F4;">FIR</h3>
+            <label class="item item-input">
+                <span class="input-label">FIR</span>
+                <input type="text" placeholder="" ng-model="details.fir">
+            </label>
+            </label>
+            <h3 id="statistics-heading" style="color:#F4F4F4;">GIR</h3>
+            <label class="item item-input">
+                <span class="input-label">GIR</span>
+                <input type="text" placeholder="" ng-model="details.gir">
+            </label>
+        </label>
+            <h3 id="statistics-headin" style="color:#F4F4F4;">Score</h3>
+            <label class="item item-input">
+                <span class="input-label">Score</span>
+                <input type="text" placeholder="" ng-model="details.score">
+            </label>
+    </label>
+            <h3 id="statistics-head" style="color:#F4F4F4;">Putts</h3>
+            <label class="item item-input">
+                <span class="input-label">Putts</span>
+                <input type="text" placeholder="" ng-model="details.puttsno">
+            </label>
+</label>
+            <h3 id="statistics-headi" style="color:#F4F4F4;">Bunkers Hit</h3>
+            <label class="item item-input">
+                <span class="input-label">Bunkers Hit</span>
+                <input type="text" placeholder="" ng-model="details.bunkers">
+            </label>
+</label>
+            <h3 id="statistics-he" style="color:#F4F4F4;">OOB</h3>
+            <label class="item item-input">
+                <span class="input-label">OOB</span>
+                <input type="text" placeholder="" ng-model="details.oob">
+            </label>
+        </form>
+        <button style="border-radius:50px 50px 50px 50px;" class="button button-balanced  button-block" data-ng-click="save()">Save</button>
+        <p>{{response}}</p>
+    </ion-content>
+</ion-view>
