@@ -40,16 +40,39 @@ angular.module('app.controllers', [])
                 params: {Par: $scope.details.Par2, FIR: $scope.details.fir2, GIR: $scope.details.gir2, score: $scope.details.score2, puttsno: $scope.details.puttsno2, bunkershit: $scope.details.bunkers2, oob: $scope.details.oob2  }
 
             }).success(function(data) {
-                $scope.response = data;
+                $scope.response2 = data;
                 
             }).error(function(data){
-                $scope.response = data;
+                $scope.response2 = data;
                 
             })
         }
         else {
             $scope.response2 = "empty details";
             console.log($scope.details.Par2 +  $scope.details.score2 + $scope.details.fir2 + $scope.details.gir2 + $scope.details.puttsno2, $scope.details.bunkers2 + $scope.details.oob2)
+        }
+    }
+        
+        $scope.save3 = function() {
+        if (($scope.details.Par3 == '3' || $scope.details.Par3 == '4' || $scope.details.Par3 == '5') && $scope.details.fir3 != undefined && $scope.details.gir3 != undefined  && $scope.details.score3 != undefined && $scope.details.puttsno3 != undefined && $scope.details.bunkers3 != undefined && $scope.details.oob3 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf3.php',
+                params: {Par: $scope.details.Par3, FIR: $scope.details.fir3, GIR: $scope.details.gir3, score: $scope.details.score3, puttsno: $scope.details.puttsno3, bunkershit: $scope.details.bunkers3, oob: $scope.details.oob3  }
+
+            }).success(function(data) {
+                $scope.response3 = data;
+                
+            }).error(function(data){
+                $scope.response3 = data;
+                
+            })
+        }
+        else {
+            $scope.response3 = "empty details";
+            console.log($scope.details.Par3 +  $scope.details.score3 + $scope.details.fir3 + $scope.details.gir3 + $scope.details.puttsno3, $scope.details.bunkers3 + $scope.details.oob3)
         }
     }
 })

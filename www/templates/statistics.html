@@ -1,6 +1,8 @@
 <ion-view title="Statistics" id="page3" style="background-color:#08F939;">
     <ion-content padding="true" class="has-header">
         <h1 id="statistics-heading2" style="color:#FEFEFE;text-align:center;">Statistics</h1>
+        
+<!-- HOLE 1 -->
         <h2 id="statistics-heading3" style="color:#111AEF;">Hole 1</h2>
         <h3 id="statistics-heading4" style="color:#F4F4F4;">Par</h3>
         <form class="list">
@@ -48,8 +50,7 @@
         <button style="border-radius:50px 50px 50px 50px;" class="button button-balanced  button-block" data-ng-click="save()">Save</button>
         <p>{{response}}</p>
 
-
-
+<!-- HOLE 2 -->
         <h2 id="statistics-heading3" style="color:#111AEF;">Hole 2</h2>
         <h3 id="statistics-6" style="color:#F4F4F4;">Par</h3>
         <form class="list">
@@ -96,5 +97,54 @@
         </form>
         <button style="border-radius:50px 50px 50px 50px;" class="button button-balanced  button-block" data-ng-click="save2()">Save</button>
         <p>{{response2}}</p>
+
+
+<!-- HOLE 3 -->
+        <h2 id="statistics-heading3" style="color:#111AEF;">Hole 3</h2>
+        <h3 id="statistics-6" style="color:#F4F4F4;">Par</h3>
+        <form class="list">
+            <label class="item item-input">
+                <span class="input-label" >Par (3,4 or 5)</span>
+                <input type="text" placeholder="" ng-model="details.Par3">
+            </label>
+            
+            <h3 id="statistics-5" style="color:#F4F4F4;">FIR</h3>
+            <label class="item item-input">
+                <span class="input-label">FIR</span>
+                <input type="text" placeholder="" ng-model="details.fir3">
+            </label>
+            </label>
+            <h3 id="statistics-4" style="color:#F4F4F4;">GIR</h3>
+            <label class="item item-input">
+                <span class="input-label">GIR</span>
+                <input type="text" placeholder="" ng-model="details.gir3">
+            </label>
+        </label>
+            <h3 id="statistics-3" style="color:#F4F4F4;">Score</h3>
+            <label class="item item-input">
+                <span class="input-label">Score</span>
+                <input type="text" placeholder="" ng-model="details.score3">
+            </label>
+    </label>
+            <h3 id="statistics-2" style="color:#F4F4F4;">Putts</h3>
+            <label class="item item-input">
+                <span class="input-label">Putts</span>
+                <input type="text" placeholder="" ng-model="details.puttsno3">
+            </label>
+</label>
+            <h3 id="statistics-1" style="color:#F4F4F4;">Bunkers Hit</h3>
+            <label class="item item-input">
+                <span class="input-label">Bunkers Hit</span>
+                <input type="text" placeholder="" ng-model="details.bunkers3">
+            </label>
+</label>
+            <h3 id="statistics-0" style="color:#F4F4F4;">OOB</h3>
+            <label class="item item-input">
+                <span class="input-label">OOB</span>
+                <input type="text" placeholder="" ng-model="details.oob3">
+            </label>
+        </form>
+        <button style="border-radius:50px 50px 50px 50px;" class="button button-balanced  button-block" data-ng-click="save3()">Save</button>
+        <p>{{response3}}</p>
     </ion-content>
 </ion-view>
