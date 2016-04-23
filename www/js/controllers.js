@@ -509,10 +509,10 @@ angular.module('app.controllers', [])
             method: 'GET',
             url: 'http://g00311793.cloudapp.net/Info2.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response1 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response1 = "No data found";
         })
     };
     
@@ -523,10 +523,10 @@ angular.module('app.controllers', [])
             method: 'GET',
             url: 'http://g00311793.cloudapp.net/Info3.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response2 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response2 = "No data found";
         })
     };
     
@@ -537,136 +537,206 @@ angular.module('app.controllers', [])
             method: 'GET',
             url: 'http://g00311793.cloudapp.net/Info4.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response3 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response3 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click5 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info5.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response4 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response4 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click6 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info6.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response5 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response5 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click7 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info7.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response6 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response6 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click8 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info8.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response7 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response7 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click9 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info9.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response8 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response8 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click10 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info10.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response9 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response9 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click11 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info11.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response10 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response10 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click12 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info12.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response11 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response11 = "No data found";
         })
     };
     
     /* ---------------------------------------------------------------------------------------*/
     
-      $scope.click = function() {
+      $scope.click13 = function() {
         $http({
             method: 'GET',
-            url: 'http://g00311793.cloudapp.net/Info.php',
+            url: 'http://g00311793.cloudapp.net/Info13.php',
         }).success(function(data) {
-            $scope.response = data;
+            $scope.response12 = data;
         })
           .error(function(data) {
-            $scope.response = "No data found";
+            $scope.response12 = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click14 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info14.php',
+        }).success(function(data) {
+            $scope.response13 = data;
+        })
+          .error(function(data) {
+            $scope.response13 = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click15 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info15.php',
+        }).success(function(data) {
+            $scope.response14 = data;
+        })
+          .error(function(data) {
+            $scope.response14 = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click16 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info16.php',
+        }).success(function(data) {
+            $scope.response15 = data;
+        })
+          .error(function(data) {
+            $scope.response15 = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click17 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info17.php',
+        }).success(function(data) {
+            $scope.response16 = data;
+        })
+          .error(function(data) {
+            $scope.response16 = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click18 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info18.php',
+        }).success(function(data) {
+            $scope.response17 = data;
+        })
+          .error(function(data) {
+            $scope.response17 = "No data found";
         })
     };
 
