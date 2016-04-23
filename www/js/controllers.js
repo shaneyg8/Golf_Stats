@@ -488,7 +488,187 @@ angular.module('app.controllers', [])
 
 
    
-.controller('settingsCtrl', function($scope) {
+.controller('settingsCtrl', function($scope, $http) {
+    
+    $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click2 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info2.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click3 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info3.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click4 = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info4.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
+    
+    /* ---------------------------------------------------------------------------------------*/
+    
+      $scope.click = function() {
+        $http({
+            method: 'GET',
+            url: 'http://g00311793.cloudapp.net/Info.php',
+        }).success(function(data) {
+            $scope.response = data;
+        })
+          .error(function(data) {
+            $scope.response = "No data found";
+        })
+    };
 
 })
     
