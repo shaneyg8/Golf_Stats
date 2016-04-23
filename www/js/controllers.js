@@ -441,7 +441,7 @@ angular.module('app.controllers', [])
             $http({
                 method: 'GET',
                 url: 'http://g00311793.cloudapp.net/golf17.php',
-                params: {Par: $scope.details.Par17, FIR: $scope.details.fir17, GIR: $scope.details.gir137, score: $scope.details.score17, puttsno: $scope.details.puttsno17, bunkershit: $scope.details.bunkers17, oob: $scope.details.oob17  }
+                params: {Par: $scope.details.Par17, FIR: $scope.details.fir17, GIR: $scope.details.gir17, score: $scope.details.score17, puttsno: $scope.details.puttsno17, bunkershit: $scope.details.bunkers17, oob: $scope.details.oob17  }
 
             }).success(function(data) {
                 $scope.response17 = data;
