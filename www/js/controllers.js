@@ -346,13 +346,145 @@ angular.module('app.controllers', [])
             console.log($scope.details.Par13 +  $scope.details.score13 + $scope.details.fir13 + $scope.details.gir13 + $scope.details.puttsno13, $scope.details.bunkers13 + $scope.details.oob13)
         }
     }
+        
+        
                                 /* ---------------------------------------------------------------------------------------*/
+        
+        
+        
+                                         //hole 14 
+        $scope.save14 = function() {
+        if (($scope.details.Par14 == '3' || $scope.details.Par14 == '4' || $scope.details.Par14 == '5') && $scope.details.fir14 != undefined && $scope.details.gir14 != undefined  && $scope.details.score14 != undefined && $scope.details.puttsno14 != undefined && $scope.details.bunkers14 != undefined && $scope.details.oob14 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf14.php',
+                params: {Par: $scope.details.Par14, FIR: $scope.details.fir14, GIR: $scope.details.gir14, score: $scope.details.score14, puttsno: $scope.details.puttsno14, bunkershit: $scope.details.bunkers14, oob: $scope.details.oob14  }
+
+            }).success(function(data) {
+                $scope.response14 = data;
+                
+            }).error(function(data){
+                $scope.response14 = data;
+                
+            })
+        }
+        else {
+            $scope.response14 = "empty details";
+            console.log($scope.details.Par14 +  $scope.details.score14 + $scope.details.fir14 + $scope.details.gir14 + $scope.details.puttsno14, $scope.details.bunkers14 + $scope.details.oob14)
+        }
+    }
                                 /* ---------------------------------------------------------------------------------------*/
+        
+                                         //hole 15 
+        $scope.save15 = function() {
+        if (($scope.details.Par15 == '3' || $scope.details.Par15 == '4' || $scope.details.Par15 == '5') && $scope.details.fir15 != undefined && $scope.details.gir15 != undefined  && $scope.details.score15 != undefined && $scope.details.puttsno15 != undefined && $scope.details.bunkers15 != undefined && $scope.details.oob15 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf15.php',
+                params: {Par: $scope.details.Par15, FIR: $scope.details.fir15, GIR: $scope.details.gir15, score: $scope.details.score15, puttsno: $scope.details.puttsno15, bunkershit: $scope.details.bunkers15, oob: $scope.details.oob15  }
+
+            }).success(function(data) {
+                $scope.response15 = data;
+                
+            }).error(function(data){
+                $scope.response15 = data;
+                
+            })
+        }
+        else {
+            $scope.response15 = "empty details";
+            console.log($scope.details.Par15 +  $scope.details.score15 + $scope.details.fir15 + $scope.details.gir15 + $scope.details.puttsno15, $scope.details.bunkers15 + $scope.details.oob15)
+        }
+    }
+        
+        
                                 /* ---------------------------------------------------------------------------------------*/
+        
+                                     //hole 16 
+        $scope.save16 = function() {
+        if (($scope.details.Par16 == '3' || $scope.details.Par16 == '4' || $scope.details.Par16 == '5') && $scope.details.fir16 != undefined && $scope.details.gir16 != undefined  && $scope.details.score16 != undefined && $scope.details.puttsno16 != undefined && $scope.details.bunkers16 != undefined && $scope.details.oob16 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf16.php',
+                params: {Par: $scope.details.Par16, FIR: $scope.details.fir16, GIR: $scope.details.gir16, score: $scope.details.score16, puttsno: $scope.details.puttsno16, bunkershit: $scope.details.bunkers16, oob: $scope.details.oob16  }
+
+            }).success(function(data) {
+                $scope.response16 = data;
+                
+            }).error(function(data){
+                $scope.response16 = data;
+                
+            })
+        }
+        else {
+            $scope.response16 = "empty details";
+            console.log($scope.details.Par16 +  $scope.details.score16 + $scope.details.fir16 + $scope.details.gir16 + $scope.details.puttsno16, $scope.details.bunkers16 + $scope.details.oob16)
+        }
+    }
+        
+        
                                 /* ---------------------------------------------------------------------------------------*/
+        
+        
+        
+                                        //hole 13 
+        $scope.save17 = function() {
+        if (($scope.details.Par17 == '3' || $scope.details.Par17 == '4' || $scope.details.Par17 == '5') && $scope.details.fir17 != undefined && $scope.details.gir17 != undefined  && $scope.details.score17 != undefined && $scope.details.puttsno17 != undefined && $scope.details.bunkers17 != undefined && $scope.details.oob17 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf17.php',
+                params: {Par: $scope.details.Par17, FIR: $scope.details.fir17, GIR: $scope.details.gir137, score: $scope.details.score17, puttsno: $scope.details.puttsno17, bunkershit: $scope.details.bunkers17, oob: $scope.details.oob17  }
+
+            }).success(function(data) {
+                $scope.response17 = data;
+                
+            }).error(function(data){
+                $scope.response17 = data;
+                
+            })
+        }
+        else {
+            $scope.response17 = "empty details";
+            console.log($scope.details.Par17 +  $scope.details.score17 + $scope.details.fir17 + $scope.details.gir17 + $scope.details.puttsno17, $scope.details.bunkers17 + $scope.details.oob17)
+        }
+    }
                                 /* ---------------------------------------------------------------------------------------*/
+        
+                                         //hole 18 
+        $scope.save18 = function() {
+        if (($scope.details.Par18 == '3' || $scope.details.Par18 == '4' || $scope.details.Par18 == '5') && $scope.details.fir18 != undefined && $scope.details.gir18 != undefined  && $scope.details.score18 != undefined && $scope.details.puttsno18 != undefined && $scope.details.bunkers18 != undefined && $scope.details.oob18 != undefined)
+        {
+            
+            $http({
+                method: 'GET',
+                url: 'http://g00311793.cloudapp.net/golf18.php',
+                params: {Par: $scope.details.Par18, FIR: $scope.details.fir18, GIR: $scope.details.gir18, score: $scope.details.score18, puttsno: $scope.details.puttsno18, bunkershit: $scope.details.bunkers18, oob: $scope.details.oob18  }
+
+            }).success(function(data) {
+                $scope.response18 = data;
+                
+            }).error(function(data){
+                $scope.response18 = data;
+                
+            })
+        }
+        else {
+            $scope.response18 = "empty details";
+            console.log($scope.details.Par18 +  $scope.details.score18 + $scope.details.fir18 + $scope.details.gir18 + $scope.details.puttsno18, $scope.details.bunkers18 + $scope.details.oob18)
+        }
+    }
            
 })
+
+                                /* ---------------------------------------------------------------------------------------*/
 
 
    
